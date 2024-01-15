@@ -30,7 +30,7 @@ const tools=[
     href: "/image"
   },
   {
-    label: "Vidro Generation",
+    label: "Video Generation",
     icon : Video,
     color : "text-orange-500",
     bgColor: "bg-orange-500/10",
