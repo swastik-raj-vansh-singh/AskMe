@@ -21,10 +21,11 @@ import { UserAvatar } from "@/components/user-avatar";
 import { Empty } from "@/components/ui/empty";
 // import { useProModal } from "@/hooks/use-pro-modal";
 
-import { formSchema } from "./constant";
+import { formSchema } from "./constants";
 
 const ConversationPage = () => {
   const router = useRouter();
+  // const proModal = useProModal();
   const [messages, setMessages] = useState<ChatCompletionRequestMessage[]>([]);
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -38,10 +39,10 @@ const ConversationPage = () => {
   
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      const userMessage: ChatCompletionRequestMessage = { role: "user", content: values.prompt };
+      const userMessage: ChatCompletionRequestMessage = { role: "user", content: values.prompt, };
       const newMessages = [...messages, userMessage];
       
-      const response = await axios.post('/api/conversation', { messages: newMessages });
+      const response = await axios.post('/api/conversation', { messages: newMessages, });
       setMessages((current) => [...current, userMessage, response.data]);
       
       form.reset();
@@ -52,7 +53,6 @@ const ConversationPage = () => {
       router.refresh();
     }
   }
-
   return ( 
     <div>
       <Heading
