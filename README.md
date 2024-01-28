@@ -1,7 +1,7 @@
 ## visit my website 
 https://ask-me-mrog.vercel.app/
 
-## Havr a look
+## Have a look
 ![image](https://github.com/swastik-raj-vansh-singh/AskMe/assets/95278835/c8cdd05e-d9f2-4844-bf2e-4659772304e5)
 ![image](https://github.com/swastik-raj-vansh-singh/AskMe/assets/95278835/974f165d-ab45-4366-9a35-95cb3a07047d)
 ![image](https://github.com/swastik-raj-vansh-singh/AskMe/assets/95278835/308c3e47-f2b6-4f20-8cb2-3dd4d68307f6)
