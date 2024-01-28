@@ -6,6 +6,14 @@ https://ask-me-mrog.vercel.app/
 ![image](https://github.com/swastik-raj-vansh-singh/AskMe/assets/95278835/974f165d-ab45-4366-9a35-95cb3a07047d)
 ![image](https://github.com/swastik-raj-vansh-singh/AskMe/assets/95278835/308c3e47-f2b6-4f20-8cb2-3dd4d68307f6)
 
+## handle the error
+if you got this error
+![WhatsApp Image 2024-01-28 at 16 41 04_52972b00](https://github.com/swastik-raj-vansh-singh/AskMe/assets/95278835/25797614-2bdd-4ae4-b421-2409bdc84e90)
+
+just go to setting->data adn time-> sync the time 
+![WhatsApp Image 2024-01-28 at 16 42 09_4bd4a6c0](https://github.com/swastik-raj-vansh-singh/AskMe/assets/95278835/68a1c417-d6f2-4cc8-9e99-a3350840eede)
+
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
